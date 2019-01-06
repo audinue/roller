@@ -1,0 +1,17 @@
+{
+  "name": "@audinue/roller",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Audi Nugraha <audinue@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "rollup": "^1.0.1",
+    "rollup-plugin-buble": "^0.19.6",
+    "rollup-plugin-node-resolve": "^4.0.0",
+    "rollup-plugin-uglify": "^6.0.0"
+  },
+  "bin": {
+    "roller": "./roller"
+  }
+}
